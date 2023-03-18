@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <style>
+            #grid{
+                border: 5px solid pink;
+                display: grid;
+                grid-template-columns: 150px 1fr;
+                /*(n)fr : 화면의 전부를 사용 n은 비율을 의미*/
+            }
+            div{
+                border: 5px solid gray;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="grid">
+            <!-- div, span : 아무런 의미없이 디자인으로만 사용되는 태그-->
+            <div>NAVIGATION</div> 
+            <div>ARTICLE</div> 
+        </div>
+        <!-- span은 줄바꿈 없음
+        <span>NAVIGATION</span> 
+        <span>ARTICLE</span>
+        -->
+    </body>
+</html>
